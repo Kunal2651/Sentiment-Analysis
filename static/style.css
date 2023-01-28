@@ -1,0 +1,105 @@
+:root{
+    --green:#27ae60;
+    --black:#444;
+    --bg-color:#e6e6e6;
+    --border:0.5rem solid rgba(0,0,0,.2);
+    --box-shadow:.4rem .4rem 1rem #ccc,
+    -.4rem -.4rem 1rem #fff;
+     --box-shadow-inset:.4rem .4rem 1rem #ccc inset,
+  -.4rem -.4rem 1rem #fff inset;
+
+}
+
+*{
+  margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+    outline: none;
+
+}
+.button{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.btn{
+    margin-left: 6rem;
+    color: var(--black);
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 0.5rem 2.5rem;
+    box-shadow: var(--box-shadow);
+    border-radius: 0.5rem;
+    background-color: none;
+}
+.btn:hover{
+    color: white;
+    background-color: var(--green);
+}
+html{
+  
+    background-color: var(--bg-color);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.container h1{
+    box-shadow: var(--box-shadow);
+    margin: 2rem 0;
+    color: var(--green);
+    font-size: 3rem;
+    text-align: center;
+}
+.container h1:hover{
+    box-shadow: var(--box-shadow-inset);
+}
+.container .heading h3{
+    font-size: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+    color: var(--black);
+}
+.container .heading input{
+    box-shadow: var(--box-shadow);
+    border: none;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    width: 80%;
+    height: 2.5rem;
+    margin-left: 6rem;
+    color: var(--green);
+   
+}
+.container .sub-heading{
+    margin-top: 3rem;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.container .sub-heading h3{
+    font-size: 2rem;
+    padding: 1.5rem;
+    color: var(--black);
+}
+.container .sub-heading input{
+    box-shadow: var(--box-shadow);
+    padding: 0.3rem;
+    margin: 0.5;
+    font-size: 1.5rem;
+
+
+}
+.container .sub-heading span{
+    font-size: 1.5rem;
+}
+
+.container .sub-heading .span{
+    font-size: 2rem;
+}
